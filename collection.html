@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabFit</title>
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--css link-->
+    <link rel="stylesheet" href="fab.css">
+    <!--font icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--javascript link-->
+    <script src="collection.js" defer></script>
+    <script src="fab.js" defer></script>
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="navbar">
+        <h1 class="product">FabFit</h1>
+        <div class="nav-links">
+            <p><a href="fab.html" class="linkbar">Home</a></p>
+            <p><a href="collection.html" class="linkbar">Collections</a></p>
+            <p><a href="contact.html" class="linkbar">Contact Us</a></p>
+            <img src="dark theme icon/moon.png" id="icon">
+        </div>
+        <div class="nav-button" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--sidebar-->
+    <div class="sidebar" style="transition: 2s;">
+        <p style="text-align: right;" onclick="closenavbar()"><a class="fa-solid fa-xmark"></a></p>
+        <div class="side-nav-link">
+            <p><a href="fab.html" class="side-linkbar">Home</a></p>
+            <p><a href="collection.html" class="side-linkbar">Collections</a></p>
+            <p><a href="contact.html" class="side-linkbar">Contact Us</a></p>
+        </div>
+    </div>
+    <!--collections-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="dress-section" id="dress-section">
+            <div class="dress">
+                <img src="twinkle saree.avif">
+                <p>Traditional saree</p>
+            </div>
+            <div class="dress">
+                <img src="elegant anarkali.jpg">
+                <p>Elegant anarkali</p>
+            </div>
+            <div class="dress">
+                <img src="boho dress.avif">
+                <p>Boho dress</p>
+            </div>
+            <div class="dress">
+                <img src="festive ghagra.jpg">
+                <p>Festive ghagra</p>
+            </div>
+            <div class="dress">
+                <img src="floral fit and flare.avif">
+                <p>Floral fit and flare</p>
+            </div>
+            <div class="dress">
+                <img src="fairy frock.jpg">
+                <p>Fairy frock</p>
+            </div>
+            <div class="dress">
+                <img src="dreamy lehenga.jpg">
+                <p>Dreamy lehenga</p>
+            </div>
+            <div class="dress">
+                <img src="party dress.jpg">
+                <p>Party dress</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container-4">
+            <div class="footer-box">
+                <h2>FabFit</h2>
+                <h3>Web Designed By S.Santhosh</h3>
+                <p>Stay connected with us for the latest trends and exclusive offers</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <h5>@may 2024 FabFit .com</h5>
+    </div>
+</body>
+
+</html>
